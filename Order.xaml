@@ -1,0 +1,19 @@
+﻿<Window x:Class="AP_ASSIGNMENT4.Order"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AP_ASSIGNMENT4"
+        mc:Ignorable="d"
+        Title="Order" Height="490" Width="880">
+    <Grid>
+        <DataGrid Name="dtname" AutoGenerateColumns="True" HorizontalAlignment="Left" Width="743" Margin="83,20,0,54">
+            <DataGrid.Columns>
+                <!--<DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="130"/>
+                <DataGridTextColumn Header="MakeId" Binding="{Binding MakeId}" Width="160"/>
+                <DataGridTextColumn Header="Color" Binding="{Binding Color}" Width="160"/>
+                <DataGridTextColumn Header="PetName" Binding="{Binding PetName}" Width="*"/>-->
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
